@@ -1,6 +1,6 @@
 # Настройка аутентификации пользователей в JetBrains YouTrack через Apache Directory LDAP через SSL
 
-Если необходимо настраиваем *SSL* для *Apache Directory*, достаточно подробная инструкция [здесь](http://directory.apache.org/apacheds/basic-ug/3.3-enabling-ssl.html "Инструкция по настройке SSL в Apache Directory).
+Если необходимо настраиваем *SSL* для *Apache Directory*, достаточно подробная инструкция [здесь](http://directory.apache.org/apacheds/basic-ug/3.3-enabling-ssl.html "Инструкция по настройке SSL в Apache Directory").
 
 *JetBrains YouTrack* для сопоставления пользователей *YouTrack* и пользователей *LDAP* использует email адреса, поэтому необходимо внимательно следить, чтобы пользователи *YouTrack*, как и пользователи *LDAP*, не имели совпадающих email адресов, то есть, чтобы у разных пользователей не было совпадающих email адресов.
 
