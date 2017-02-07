@@ -14,8 +14,8 @@ system("/bin/systemctl -q --no-ask-password stop gitblit") == 0 or die("Can't st
 sleep(30);
 
 ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
-$year = 1900 + $year;
 $mon++;
+$year = 1900 + $year;
 $mon = "0$mon" if ($mon < 10);
 $mday = "0$mday" if ($mday < 10);
 
