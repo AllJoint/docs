@@ -30,7 +30,7 @@
 
 Значения IPADDR и ниже нужно изменить на свои. Применяем настройки:
 
-    # service network restart
+    # systemctl restart network
 
 Создаём виртуальную машину
 
